@@ -1,0 +1,12 @@
+torch>=2.2
+torchvision>=0.17
+numpy
+pandas
+scikit-learn
+scipy
+matplotlib
+seaborn
+opencv-python-headless
+Pillow
+streamlit>=1.50
+jupyter

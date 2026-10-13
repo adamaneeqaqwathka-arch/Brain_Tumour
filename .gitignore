@@ -1,0 +1,35 @@
+# Data (large; download separately, see README)
+data/
+artifacts/
+pretrained/
+*.npy
+*.zip
+
+# Model weights: keep only the chosen model (4.7 MB) that the app needs
+*.pth
+models/*.pt
+!models/best_model.pt
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Environment files
+.env

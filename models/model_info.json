@@ -1,0 +1,28 @@
+{
+  "key": "custom_cnn_base",
+  "arch": "custom_cnn",
+  "classes": [
+    "glioma",
+    "meningioma",
+    "no_tumor",
+    "pituitary"
+  ],
+  "img_size": 256,
+  "preprocess": "plain",
+  "mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "test_metrics": {
+    "test_accuracy": 0.8089430894308943,
+    "test_precision": 0.8100592520113068,
+    "test_recall": 0.8046201814058958,
+    "test_f1": 0.8014183020072836
+  }
+}
